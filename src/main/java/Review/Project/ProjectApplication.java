@@ -18,7 +18,7 @@ public class ProjectApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("https://review-project-li6tj9dk6-tomcrude.vercel.app").allowedMethods("*");
+				registry.addMapping("/**").allowedOrigins("https://review-project-62rjxa21w-tomcrude.vercel.app").allowedMethods("*");
 			}
 		};
 	}
